@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.fog-nav{
+    font-size: 2em;
+}
+.main-pic {
+    background: url("./assets/mario.jpg") no-repeat center center fixed;
+    min-height: 96vh;
+    background-size: cover;
+    position: relative;
+}
+.layer {
+    background-color: rgba(63, 63, 63, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    color: #eeeeee;
+    font-size: 4em;
+}
+
+.header-btn {
+    padding: 1em;
+    margin: 1em;
+}
+.what-care-for{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.googleMap{
+    position:relative;
+    top: 2em;
+    min-height: 20em;
+    height: 100%;
+}
+.icons {
+    font-size: 5em;
+}
+.care-words{
+    text-align: justify;
+}
+.care-for{
+    margin-top: 5em;
+}
+.img-icon{
+    height: 8em;
+    width: 8em;
+    position: relative;
+    top: -1em;
+}
+.care-header{
+    text-decoration: underline;
+}
+.bring-home {
+    position: relative;
+}
+.pure{
+    position: relative;
+    top:1.3em;
+}
+.word-pad{
+    padding-top: 1.5em;
+}
+.word-pad-tree{
+    padding-top: 4.2em;
+}
+.footer{
+    margin: 0;
+    background-color: #333333;
+    height: 20em;
+    color: #eeeeee;
+}
+footer hr{
+    border-color: inherit
+}
+.footer-push{
+    position: relative;
+    top: 3em;
+}
